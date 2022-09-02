@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h2 id="g">G</h2><h2 id="o">o</h2><h2 id="oo">o</h2><h2 id="gg">g</h2><h2 id="l">l</h2><h2 id="e" >e</h2>
+    <h1 id="title">Google Survey Form</h1>
+    <p id="description">Welcome to Google Survey Form Thanks you! for take a time to help we to Grow</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input id="name" type="text" required placeholder="Insert your name">
+        </label>
+        <label>Last Name: <input id="last-name" type="text" required/ placeholder="Insert your last name">
+        </label>
+        <label id="email-label">Email: <input id="email" type="email" required/ placeholder="Insert your email">
+        </label>
+        <label id="number-label">Age: <input id="number" type="number" min="8" max="120" required placeholder="Insert your age"/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What is your favorite tool of Google?
+        </label>
+        <select id="dropdown">
+          <option value="1">Google Youtube
+          </option>
+          <option value="2">Google Maps
+          </option>
+          <option value="3">Google Ads
+          </option>
+          <option value="4">Google Analitics
+          </option>
+          <option value="5">Google Gmail
+          </option>
+          <option value="6">Google Translate
+          </option>
+          <option value="7">Google+
+          </option>
+        </select> 
+        <label>Would you recommend the Google tools to a friend?
+        </label>
+        <label>
+          <input type="radio" value="1radio" name="recommend-btn" >Definently
+        </label>
+        <label>
+          <input type="radio" value="2radio" name="recommend-btn">Maybe
+        </label>
+        <label>
+          <input type="radio" value="3radio" name="recommend-btn">Not sure
+        </label>
+        <label>What Google tool would you like see improved?
+        <label>
+          <input type="checkbox" value="check1"/>Google Skillshop
+        </label>
+        <label>
+          <input type="checkbox" value="check2"/>Google Active
+        </label>
+        <label>
+          <input type="checkbox" value="check3"/>Google Classroom
+        </label>
+        <label>
+          <input type="checkbox" value="check4"/>Google Forms
+        </label>
+
+      </fieldset>
+      <fieldset>
+        <label>Any comments or suggestions?</label>
+          <textarea id="texta" placeholder="Insert your comment or suggestion here">
+          </textarea>
+        <input type="submit" 
+      id="submit"
+      </fieldset>
+      <label>Made by Jose Miguel Fonseca for Freecodecamp</label>
+    </form> 
+  </body>
+</html>
